@@ -1,0 +1,64 @@
+:root{
+    --color-primary: rgb(0, 0, 77);
+    --color-focus: rgb(37, 99, 235);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-primary);
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 16px;
+}
+
+.container{
+    background-color: aliceblue;
+    width: min(100%, 600px);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+input:focus-visible,
+button:focus-visible{
+    outline: 2px solid var(--color-focus);
+    outline-offset: 1px;
+}
+
+.task-list{
+    padding: 0px 0px 0px 17px;
+}
+
+.li-task{
+    margin: 10px 0px 0px 0px;
+}
+
+.btn-remove-task{
+    margin-left: 10px;
+}
+
+.error-container{
+    background-color: rgb(255 133 133);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}

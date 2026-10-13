@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task list</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Task List</h1>
+        <div id="div-form-task">
+            <form id="form-tasks">
+                <label for="input-task">Nova tarefa</label>
+                <input type="text" id="input-task">
+                <button type="submit" id="btn-input-task">Adicionar tarefa</button>
+            </form>
+            <ul id="task-list" class="task-list"></ul>
+        </div>
+        <div id="div-error-message" class="error-container" role="alert"></div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
