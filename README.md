@@ -44,7 +44,17 @@ TaskList/
 
 ## How to Run
 
-No dependencies need to be installed. Open the `index.html` file in your browser (or use VS Code's **Live Server** extension).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GustavoMollica/task-list.git
+   ```
+2. Enter the project folder:
+   ```bash
+   cd task-list
+   ```
+3. Open the `index.html` file in your browser (or use VS Code's **Live Server** extension).
+
+No dependencies need to be installed.
 
 ## Future Improvements
 
